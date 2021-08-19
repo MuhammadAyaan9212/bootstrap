@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Buttons</title>
+  </head>
+  <body>
+
+    <button style="background-color: red; color: white;" type="button" name="button">Submit</button>
+    <button class="btn btn-danger" type="button" name="button">Submit</button>
+    <button class="btn btn-primary" type="button" name="button">Submit</button>
+    <button class="btn btn-success" type="button">submit</button>
+    <button class="btn btn-warning" type="button">submit</button>
+    <button class="btn btn-dark" type="button">submit</button>
+    <button class="btn btn-light" type="button">submit</button>
+    <button class="btn btn-info" type="button">submit</button>
+    <button class="btn btn-secondary" type="button">submit</button>
+
+    <!-- Different tag with button behaviour -->
+    <div class="mt-2">
+        <a class="btn btn-success" href="https://www.google.com" role="button">Go to google</a>
+        <input class="btn btn-danger" type="submit" name="" value="ayaan">
+    </div>
+
+    <!-- outline button -->
+    <div class="mt-2">
+        <button class="btn btn-outline-success" type="button" name="button">Outline primary button</button>
+        <a class="btn btn-outline-primary" href="#" role="button">Outline tags</a>
+        <input class="btn btn-outline-danger" type="text" name="" value="Outline Danger Button">
+    </div>
+
+
+    <!-- button sizes -->
+    <div class="mt-2">
+        <button class="btn btn-info btn-sm" type="button" name="button">Small size</button>
+        <button class="btn btn-info" type="button" name="button">Normal size</button>
+        <button class="btn btn-info btn-lg" type="button" name="button">Large size</button>
+    </div>
+
+    <!-- outline button sizes -->
+    <div class="mt-2">
+        <button class="btn btn-outline-success btn-sm" type="button" name="button">Small size</button>
+        <button class="btn btn-outline-success" type="button" name="button">Normal size</button>
+        <button class="btn btn-outline-success btn-lg" type="button" name="button">Large size</button>
+    </div>
+
+    <!-- disabled button -->
+    <div class="mt-2">
+        <button class="btn btn-primary" type="button" name="button" disabled>Primary</button>
+        <button class="btn btn-warning" type="button" name="button" disabled>warning</button>
+        <button class="btn btn-danger" type="button" name="button" disabled>danger</button>
+        <button class="btn btn-success" type="button" name="button" disabled>success</button>
+        <button class="btn btn-info" type="button" name="button" disabled>info</button>
+    </div>
+
+    <!-- disabled a tags  -->
+    <div class="mt-2">
+        <a class="btn btn-primary disabled" tabindex="-1" href="#" role="button" aria-disabled="true">Primary</a>
+        <a class="btn btn-secondary disabled" tabindex="-1" href="#" role="button" aria-disabled="true">Link</a>
+    </div>
+
+
+    <!-- Block Buttons -->
+    <div class="mt-2 d-grid gap-2">
+        <button class="btn btn-primary" type="button">First Button</button>
+        <button class="btn btn-primary" type="button">Second Button</button>
+    </div>
+
+
+    <!-- changes its behaviour on different screen sizes -->
+    <div class="mt-2 d-grid gap-2 d-lg-block">
+        <button class="btn btn-success" type="button">Button 1</button>
+        <button class="btn btn-success" type="button">Button 2</button>
+    </div>
+
+  <!-- Stays exactly the size you want it to be -->
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="Button">Button</button>
+        <button class="btn btn-primary" type="Button">Button</button>
+    </div>
+
+
+  <!-- changes its behaviour on different screen sizes -->
+    <div class="mt-2 d-grid gap-2 d-md-flex justify-content-md-start">
+        <button class="btn btn-primary me-md-2" type="button">button</button>
+        <button class="btn btn-primary" type="button">button</button>
+    </div>
+
+
+  <!-- Disabled button -->
+    <div class="mt-2">
+        <a class="btn btn-primary disabled" tabindex="-1" role="button" href="#" aria-disabled="true">Click ME</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

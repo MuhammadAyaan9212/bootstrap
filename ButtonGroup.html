@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Button Group</title>
+  </head>
+  <body>
+
+    <button class="btn btn-primary">Left</button>
+    <button class="btn btn-primary">Middle</button>
+    <button class="btn btn-primary">Right</button>
+
+    <div class="btn-group" role="group" aria-label="Basic Example">
+        <button class="btn btn-success" type="">Left</button>
+        <button class="btn btn-primary" type="">Middle</button>
+        <button class="btn btn-primary" type="">Right</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic Example 2">
+        <button class="btn btn-outline-danger">Left</button>
+        <button class="btn btn-outline-primary">Middle</button>
+        <button class="btn btn-outline-info">Right</button>
+    </div>
+
+    <div class="btn-group mt-2" role="group" aria-label="Basic Links">
+        <a class="btn btn-primary active" href="#" aria-current="page">Actine Link</a>
+        <a class="btn btn-primary" href="#">Link</a>
+        <a class="btn btn-primary" href="#">Link</a>
+    </div>
+
+    <!-- checkboxes -->
+    <br>
+    <div class="btn-group mt-2" role="group" aria-lable="Basic checkbox example">
+        <input class="btn-check" type="checkbox" autocomplete="off" id="arabic">
+        <label class="btn btn-outline-primary" for="arabic">Arabic</label>
+
+        <input class="btn-check" type="checkbox" autocomplete="off" id="urdu">
+        <label class="btn btn-outline-primary" for="urdu">Urdu</label>
+
+        <input class="btn-check" type="checkbox" autocomplete="off" id="english">
+        <label class="btn btn-outline-primary" for="english">English</label>
+    </div>
+
+    <!-- radio -->
+    <br>
+    <div class="btn-group mt-2" role="group" aria-label="Basic radio button">
+        <input type="radio" class="btn-check" autocomplete="off" id="male" name="genderGender">
+        <label class="btn btn-outline-primary" for="male">Male</label>
+
+        <input type="radio" class="btn-check" autocomplete="off" id="female" name="genderGender">
+        <label class="btn btn-outline-primary" for="female">Female</label>
+
+        <input type="radio" class="btn-check" autocomplete="off" id="other" name="genderGender">
+        <label class="btn btn-outline-primary" for="other">Other</label>
+    </div>
+
+    <!-- button Toolbar -->
+    <br>
+    <div class="btn-toolbar mt-2" role="toolbar" aria-label="Toolbar Example">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-primary">File</button>
+            <button type="button" class="btn btn-primary">Edit</button>
+            <button type="button" class="btn btn-primary">View</button>
+            <button type="button" class="btn btn-primary">Selection</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-secondary">Find</button>
+            <button type="button" class="btn btn-secondary">Packages</button>
+            <button type="button" class="btn btn-secondary">Help</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-info">8</button>
+        </div>
+    </div>
+
+    <!-- Large btn group -->
+    <br>
+    <div class="btn-group btn-group-lg mt-2" role="group" aria-label="Basic Example">
+        <button class="btn btn-success" type="">Left</button>
+        <button class="btn btn-primary" type="">Middle</button>
+        <button class="btn btn-primary" type="">Right</button>
+    </div>
+
+    <!-- Small btn group -->
+    <br>
+    <div class="btn-group btn-group-sm mt-2" role="group" aria-label="Basic Example">
+        <button class="btn btn-success" type="">Left</button>
+        <button class="btn btn-primary" type="">Middle</button>
+        <button class="btn btn-primary" type="">Right</button>
+    </div>
+
+    <!-- nested button group -->
+    <div class="btn-group" role="group" aria-label="Button Group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expended="false">
+                Dropwdown
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="">dropdown link</a></li>
+                <li><a class="dropdown-item" href="">dropdown link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- vertical button group -->
+
+    <div class="mt-2 btn-group-vertical">
+      <button class="btn btn-success">one</button>
+      <button class="btn btn-success">two</button>
+      <button class="btn btn-success">three</button>
+      <button class="btn btn-info">four</button>
+      <button class="btn btn-danger">five</button>
+      <button class="btn btn-primary">six</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
